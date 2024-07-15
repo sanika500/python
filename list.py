@@ -6,7 +6,8 @@ for i in range (a):
     b.append(c)
     
 target=int(input("enter the target")) 
-while()
+if(a==8):
+    print("the index value")
 
 
  

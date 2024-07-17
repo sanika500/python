@@ -1,4 +1,5 @@
 a="hello world"
-print(a.upper())
-
 print(a)
+b=a.upper()
+
+print(b)

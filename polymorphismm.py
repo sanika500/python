@@ -43,16 +43,26 @@ class School:
 class Lp(School):
     def main(self):
         print("1 to 4")
-class up(school):
+class up(School):
     def main(self):
         print("5 to 7")
-class highschool("School"):
+class highschool(School):
     def main(self):
         print("8 to 10")
-class highersecondary("School"):
+class highersecondary(School):
     def main(self):
         print("plus one,plus two")
-p1=(School)
+p1=School()
+p2=Lp()
+p3=up()
+p4=highschool()
+p5=highersecondary()
+p1.main()
+p2.main()
+p3.main()
+p4.main()
+p5.main()
+
 
 
             

@@ -13,6 +13,10 @@ class Employee():
             print("lowsalary")
     def __str__(self):
         return f"{self.name}-{self.salary}{self.status}"
+    
+class Manager(Employee):
+    def __init__(self, name, salary):
+        super().__init__(name, salary)
 p1=Employee("anu",55000) 
 p1.get_status() 
             

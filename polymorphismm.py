@@ -35,34 +35,36 @@
 
 
 
-class School:
-    def main(self):
-        print("st mary's girls school")
-    def main(self):
-        print("2000")
-class Lp(School):
-    def main(self):
-        print("1 to 4")
-class up(School):
-    def main(self):
-        print("5 to 7")
-class highschool(School):
-    def main(self):
-        print("8 to 10")
-class highersecondary(School):
-    def main(self):
-        print("plus one,plus two")
-p1=School()
-p2=Lp()
-p3=up()
-p4=highschool()
-p5=highersecondary()
-p1.main()
-p2.main()
-p3.main()
-p4.main()
-p5.main()
+# class School:
+#     def main(self):
+#         print("st mary's girls school")
+#     def main(self):
+#         print("2000")
+# class Lp(School):
+#     def main(self):
+#         print("1 to 4")
+# class up(School):
+#     def main(self):
+#         print("5 to 7")
+# class highschool(School):
+#     def main(self):
+#         print("8 to 10")
+# class highersecondary(School):
+#     def main(self):
+#         print("plus one,plus two")
+# p1=School()
+# p2=Lp()
+# p3=up()
+# p4=highschool()
+# p5=highersecondary()
+# p1.main()
+# p2.main()
+# p3.main()
+# p4.main()
+# p5.main()
 
 
+
+    
 
             

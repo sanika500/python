@@ -13,7 +13,6 @@
 # b=int(input("enter a number"))
 # print(master(a,b))
 
- def master(x):
      
         
 

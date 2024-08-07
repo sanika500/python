@@ -14,7 +14,7 @@
 # else:
 #     print("name not ends with p")
 
-a=(input("enter a word"))
+a=(input("enter a name"))
 import re
 x=re.search("^a.*p$",a)
 if x:

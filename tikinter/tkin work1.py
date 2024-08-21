@@ -3,19 +3,19 @@ from tkinter import messagebox
 def celsius_farenheit():
     
     try:
-       num1=float(c*9/5+32)
+       num1=float(entry1.get)
+       result=num1*9/5+32
+       messagebox.showinfo("result",result)
+       
     except ValueError:
-        return" invalid input"
+        messagebox.showerror("error","please enter valid numbers")
 def farenheit_celsius():
     try:
-        num2=float(f-32)*5/9
+        num2=float(entry1.get)
+        result=num2-32*5/9
     except ValueError:
-        return"invalid input"
-# def convert():
-#     if c in f:
-#      return(celsius_farenheit)
-#     else:
-#         return(farenheit_celsius)
+           messagebox.showerror("error","please enter valid numbers")
+
     
     
 root=tk.Tk()
